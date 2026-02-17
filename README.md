@@ -48,7 +48,7 @@ Assuming 100,000 new users per month:
 - **Revenue impact:** $4.2M additional annual revenue (at $50 LTV)
 
 ## Recommendation
-SHIP the 3-screen onboarding flow**
+SHIP the 3-screen onboarding flow
 
 Result is statistically significant with meaningful business impact.
 Low implementation risk (UI change only, no backend changes required).
