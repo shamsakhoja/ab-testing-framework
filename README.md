@@ -2,7 +2,7 @@
 
 ## Onboarding Flow Optimization
 
-![A/B Test Results](ab_test_results.png)
+![A/B Test Results](onboarding_ab_test_results.png)
 
 ## Project Overview
 This project demonstrates a complete, real-world A/B testing framework 
