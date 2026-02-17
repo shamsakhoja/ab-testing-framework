@@ -1,4 +1,4 @@
-# A/B Testing Framework for Marketing/ Product Analytics
+# A/B Testing Framework for Marketing Analytics
 
 ## Onboarding Flow Optimization
 
@@ -10,8 +10,7 @@ built to optimize user onboarding flows. The analysis follows the exact
 workflow used by growth and marketing analytics teams at top tech companies.
 
 ## Business Problem
-Only 35% of new users were completing onboarding and reaching their 
-"aha moment". The remaining 65% dropped off before experiencing core 
+Only 35% of new users were completing onboarding. The remaining 65% dropped off before experiencing core 
 product value, directly impacting revenue and growth.
 
 ## Hypothesis
@@ -33,20 +32,20 @@ with less friction."**
 
 | Metric | Control | Treatment | Lift |
 |--------|---------|-----------|------|
-| Activation Rate | 35.1% | 42.1% | **+20.0%** |
-| Users Activated | 3,505 | 4,210 | +705 users |
+| Activation Rate | 35% | 42% | **+20%** |
+| Users Activated | 3,500 | 4,200 | +700 users |
 | Statistical Significance | - | - | p < 0.001  |
 
 ## Statistical Confidence
 - **P-value:** < 0.001
-- **95% Confidence Interval:** [16.1%, 23.9%] relative lift
-- **Z-score:** 10.9
+- **95% Confidence Interval:** [16.2%, 23.8%] relative lift
+- **Z-score:** 10.17
 
 ## Business Impact
 Assuming 100,000 new users per month:
-- **Additional activations:** +7,020 users/month
-- **Annual impact:** ~84,000 additional activated users
-- **Revenue impact:** ~$4.2M additional annual revenue (at $50 LTV)
+- **Additional activations:** +7,000 users/month
+- **Annual impact:** 84,000 additional activated users
+- **Revenue impact:** $4.2M additional annual revenue (at $50 LTV)
 
 ## Recommendation
 SHIP the 3-screen onboarding flow**
