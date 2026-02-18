@@ -14,9 +14,9 @@ Only 35% of new users were completing onboarding. The remaining 65% dropped off 
 product value, directly impacting revenue and growth.
 
 ## Hypothesis
-**"If we simplify onboarding from 5 screens to 3 screens, then activation 
+**If we simplify onboarding from 5 screens to 3 screens, then activation 
 rate will increase because users reach their first key action faster 
-with less friction."**
+with less friction.**
 
 ## Methodology
 ```
@@ -48,7 +48,7 @@ Assuming 100,000 new users per month:
 - **Revenue impact:** $4.2M additional annual revenue (at $50 LTV)
 
 ## Recommendation
-SHIP the 3-screen onboarding flow
+SHIP the 3 screen onboarding flow
 
 Result is statistically significant with meaningful business impact.
 Low implementation risk (UI change only, no backend changes required).
@@ -70,7 +70,7 @@ Low implementation risk (UI change only, no backend changes required).
 
 ## How to Run
 1. Open `ab_testing_framework.ipynb` in Google Colab or Jupyter
-2. Run all cells (Runtime → Run All)
+2. Run all cells (Runtime >>  Run All)
 3. Results and visualizations will generate automatically
 
 ## Key Concepts Demonstrated
