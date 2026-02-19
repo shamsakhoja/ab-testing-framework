@@ -4,10 +4,10 @@
 
 ![A/B Test Results](onboarding_ab_test_result.png)
 
-## Project Overview
-This project demonstrates a complete, real-world A/B testing framework 
-built to optimize user onboarding flows. The analysis follows the exact 
-workflow used by growth and marketing analytics teams at top tech companies.
+## Executive Summary
+Decision: Ship the 3 screen onboarding flow.
+
+Reducing onboarding from 5 screens to 3 screens increased activation from **35% to 42%** (+20% relative lift, p < 0.001) with meaningful revenue impact and low implementation risk.
 
 ## Business Problem
 Only 35% of new users were completing onboarding. The remaining 65% dropped off before experiencing core 
@@ -47,20 +47,33 @@ Assuming 100,000 new users per month:
 - **Annual impact:** 84,000 additional activated users
 - **Revenue impact:** $4.2M additional annual revenue (at $50 LTV)
 
-## Recommendation
-SHIP the 3 screen onboarding flow
+## Key Deliverable - Decision and Rollout Plan
+**Recommendation**
+Ship the 3-screen onboarding experience.
 
-Result is statistically significant with meaningful business impact.
-Low implementation risk (UI change only, no backend changes required).
+**Why**
+- Statistically significant +20% lift in activation
+- Material revenue upside
+- Low engineering risk (UI-only change)
+
+**Guardrails to Monitor**
+- 7-day retention rate
+- Conversion to paid (if applicable)
+- Customer support ticket volume
+- Downstream churn rate
+
+**Rollout Plan**
+Gradual ramp:
+10% then 50% then 100% rollout
+
+Monitor activation, retention, and revenue metrics at each stage.
+Rollback if guardrail metrics decline beyond predefined thresholds.
+
+**Next Experiment**
+Test personalized onboarding flows based on acquisition channel to further improve activation and early retention.
 
 ## Tools & Technologies
-| Tool | Purpose |
-|------|---------|
-| Python | Core analysis |
-| NumPy | Statistical calculations |
-| Pandas | Data manipulation |
-| SciPy | Hypothesis testing |
-| Matplotlib/Seaborn | Visualizations |
+Python (core analysis), Numpy (Statistical Calculation), Pandas(Data Manipulation), SciPy (Hypothesis Testing), Matplotlib/Seaborn (Visualization)
 
 ## Files
 | File | Description |
@@ -73,14 +86,6 @@ Low implementation risk (UI change only, no backend changes required).
 2. Run all cells (Runtime >>  Run All)
 3. Results and visualizations will generate automatically
 
-## Key Concepts Demonstrated
-- Hypothesis formulation
-- Sample size calculation & power analysis
-- Two-proportion z-test
-- P-value interpretation
-- Confidence interval calculation
-- Statistical vs practical significance
-- Executive stakeholder communication
 
 ## Author
 Shamsa Khoja | MS Business Analytics, University of Louisville (2025)
