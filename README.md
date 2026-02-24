@@ -89,4 +89,4 @@ Python (core analysis), Numpy (Statistical Calculation), Pandas(Data Manipulatio
 
 ## Author
 Shamsa Khoja | MS Business Analytics, University of Louisville (2025)
-www.linkedin.com/in/shamsakhoja | www.github.com/shamsakhoja7-max/ab-testing-framework
+www.linkedin.com/in/shamsakhoja | www.github.com/shamsakhoja
